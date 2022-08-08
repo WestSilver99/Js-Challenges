@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index-3</title>
+    <link rel="stylesheet" href="index-3.css" />
+  </head>
+  <body>
+    <h1>Random Number Game</h1>
+
+    <div id="generate">
+      <label
+        ><strong>Generate a number between 0 and</strong>
+        <input type="number" min="0" max="40"
+      /></label>
+    </div>
+    <form id="form">
+      <div>
+        <label><br />Guess the number:</label>
+        <input id="guess" type="number" min="0" max="40" />
+        <input id="button" type="submit" value="Play!" />
+      </div>
+    </form>
+    <div>
+      <span id="chose"></span>
+      <span id="machine"></span>
+    </div>
+
+    <div>
+      <span id="winner"></span>
+    </div>
+
+    <script src="index-3.js"></script>
+  </body>
+</html>

@@ -2,6 +2,7 @@ const hello = document.getElementById("hello");
 const body = document.getElementById("body");
 hello.style.color = "white";
 hello.style.fontWeight = "600";
+body.style.backgroundColor = "purple";
 
 function handleWindow() {
   const size = window.innerWidth;
